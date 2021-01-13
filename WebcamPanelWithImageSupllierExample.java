@@ -17,14 +17,6 @@ import com.github.sarxos.webcam.WebcamPanel;
 import com.github.sarxos.webcam.WebcamPanel.ImageSupplier;
 import com.github.sarxos.webcam.WebcamResolution;
 
-
-/**
- * This example demonstrates a possibility to provide custom {@link ImageSupplier} which will be
- * used to obtain image displayed on the {@link WebcamPanel}. In this specific example we will
- * implement it in such a way that it won't be using {@link Webcam#getImage()} but
- * {@link Webcam#getImageBytes(ByteBuffer)} instead. This may be required in some cases if you need
- * very fast access to underlying buffer.
- */
 public class WebcamPanelWithImageSupllierExample {
 
 	public static void main(String[] args) throws InterruptedException {
