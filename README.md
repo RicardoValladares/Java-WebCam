@@ -1,4 +1,4 @@
-# Java WebCam
+# WebCam
 
 Todo lo que encuentres en la carpeta raiz contiene ejemplos listos solo para compilar y ejecutar ejemplo:
 
